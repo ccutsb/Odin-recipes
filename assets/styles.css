@@ -1,0 +1,17 @@
+body {
+    background: linear-gradient(180deg, #080202, #30312e);
+    height: 100vh;
+}
+
+#logo {
+    height: 150px;
+    width: 150px;
+}
+
+h1, h2, h3 {
+    color: aliceblue;
+}
+img {
+    height: 300px;
+    width: 300px;
+}
