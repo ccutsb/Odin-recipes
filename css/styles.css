@@ -1,30 +1,55 @@
 * {
   font-family: "Poppins", sans-serif, 'Times New Roman', Times, serif;
-  text-align: center;
   font-weight: 500 ;
   font-size: 50px;
 }
 
-body {
-  background-color: rgb(8, 71, 126);
-  height: 100vh;
+.inicio {
+  margin-top: 50px;
+  display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.logo {
-  height: 150px;
-  width: 150px;
-  align-items: center;
+.main-title {
+  background-color: yellow;
+  margin: 10px 850px;
+}
+
+.KAZU {
+  border: 3px solid aquamarine;
+  background-color: aqua;
+}
+
+body {
+  background-color: rgb(15, 13, 13);
+  border: 2px red solid;
+  padding-bottom: 55px;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  margin-top: -30px;
+  padding: 5px;
+  border: 10px;
+  border-color: white;
+}
+
+h3, h2, h1, li, p {
+  display: flex;
+  justify-content: center;
+  color: white;
 }
 
 img {
-  height: auto;
-  width: 500px;
+  width: 550px;
+  height: 550px;
 }
 
-.lists > ul, ol {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.menu {
+  display: flex;
+}
+
+.option-one, .option-two, .option-three, .option-four{
+  flex: 1;
 }
